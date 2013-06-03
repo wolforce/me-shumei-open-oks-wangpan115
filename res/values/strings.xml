@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">《一键签到》115网盘签到插件</string>
+    <string name="label_activity_main">115网盘签到插件</string>
+    
+    
+    
+    <!-- “添加任务”的弹出窗口上显示的插件名称 -->
+    <string name="cfg_plugin_name">115网盘</string>
+    
+    <!-- 插件作者 -->
+    <string name="cfg_author">家前李树</string>
+    
+    <!-- “添加任务”的弹出窗口上显示的说明信息，提示用户怎么使用此插件 -->
+    <string name="cfg_info">115网盘每日可签到两次，第一次机会一般是中午12点前，第二次是12点后。\n如果当天只签到成功一次，则其还有一次签到机会，还会处于可签到状态。当第二次签到机会还没开启时，签到会提示失败。\n请使用手机号或数字ID号登录，不支持邮箱登录。</string>
+    
+    <!--
+    在“添加任务”的弹出窗口上显示的“配置”界面类型
+    0表示不需要显示显示任何配置界面
+    1表示直接由主程序提供一个简单的文本框来让用户输入数据
+    2表示由插件自己来完成配置界面的高级定制
+    -->
+    <string name="cfg_config_type">0</string>
+    
+    <!-- 该任务每日可签到的次数 -->
+    <string name="cfg_times">2</string>
+
+</resources>
