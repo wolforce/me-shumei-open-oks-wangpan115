@@ -118,6 +118,7 @@ public class Signin extends CommonData {
                         signinResultStr = sb.toString();
                         signinResultFlag = true;
                     } else {
+                        if (jsonObj.optInt("err_code") == 200021) signinResultFlag = true;
                         signinResultStr = jsonObj.optString("err_msg") + "\n";
                     }
                     System.out.println(res.body());
