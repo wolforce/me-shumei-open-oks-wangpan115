@@ -13,7 +13,7 @@
     <string name="cfg_author">家前李树</string>
     
     <!-- “添加任务”的弹出窗口上显示的说明信息，提示用户怎么使用此插件 -->
-    <string name="cfg_info">115网盘每日可签到两次，第一次机会一般是中午12点前，第二次是12点后。\n如果当天只签到成功一次，则其还有一次签到机会，还会处于可签到状态。当第二次签到机会还没开启时，签到会提示失败。\n请使用手机号或数字ID号登录，不支持邮箱登录。</string>
+    <string name="cfg_info">115网盘每日可签到和摇奖各一次\n请使用手机号或数字ID号登录，不支持邮箱登录。</string>
     
     <!--
     在“添加任务”的弹出窗口上显示的“配置”界面类型
@@ -24,6 +24,6 @@
     <string name="cfg_config_type">0</string>
     
     <!-- 该任务每日可签到的次数 -->
-    <string name="cfg_times">2</string>
+    <string name="cfg_times">1</string>
 
 </resources>

@@ -177,8 +177,8 @@ public class Signin extends CommonData {
             }
             else
             {
-                resultFlag = "false";
-                resultStr = "已摇过奖到或第二次摇奖机会还没开启\n\n115网盘每日可摇奖两次，第一次机会一般是中午12点前，第二次是12点后";
+                resultFlag = "true";
+                resultStr = "今日已摇过奖";
             }
             
             //只有签到和摇奖都成功整个任务才算签到成功
